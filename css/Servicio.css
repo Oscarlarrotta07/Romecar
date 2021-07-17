@@ -30,14 +30,21 @@
 
 .modal__content {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 100vh;
 }
 
 .modal__img {
     width: 50%;
-    height: 500PX;
+    height: auto;
+}
+
+.modal__txt {
+    background: white;
+    color: black;
+    padding: 20px 0px;
+    margin: 20px;
 }
 
 .modal__boton {

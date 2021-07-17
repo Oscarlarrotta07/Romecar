@@ -13,8 +13,10 @@ body {
 
 img {
     display: block;
-    width: 100%;
+    width: 90%;
     max-width: 100%;
+    height: 600px;
+    object-fit: cover;
 }
 
 .container {
@@ -102,7 +104,7 @@ img {
 }
 
 .social-icon [class*="icon-"] {
-    color: blck;
+    color: black;
     margin-left: 10px;
     display: flex;
     justify-content: center;
@@ -243,6 +245,7 @@ img {
 .today-special__img {
     margin: auto;
     max-width: 350px;
+    object-fit: cover;
 }
 
 .today-special__title {
@@ -319,6 +322,7 @@ img {
     }
     .column--50 {
         width: 49%;
+        max-width: 49%;
     }
     .column--50-25 {
         width: 49%;
@@ -335,7 +339,6 @@ img {
     }
     .today-special__img {
         height: 250px;
-        object-fit: fill;
     }
     .main-footer .container--flex {
         align-items: flex-start;
